@@ -1,0 +1,81 @@
+.logo-image{
+    overflow: hidden;
+    margin-left : -1900px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: none;
+    color: rgb(224, 203, 10);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: none;
+    color: rgb(224, 203, 10);
+  }
+
+  .heading {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+
+  }
+
+  .paragraph1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding-bottom: 50px;
+
+  }
+
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   background-color: black;
+   overflow: hidden;
+  }
+  
+  .footer a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .footer a.active {
+    background-color: none;
+    color: rgb(224, 203, 10);
+  }
+  
+  .footerCopyright {
+    float: right;
+    font-size: 14px;
+    padding: 0px 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
